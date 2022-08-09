@@ -170,9 +170,9 @@ public class kite_redraw extends JPanel {
         BufferedImage BIdart=new BufferedImage(1,1,1);
         BufferedImage BIthin=new BufferedImage(1,1,1);
         try {
-            BIkite = ImageIO.read(this.getClass().getResource("newfat.png"));
-            BIdart = ImageIO.read(this.getClass().getResource("newthin.png"));
-            BIthin = ImageIO.read(this.getClass().getResource("newthintwo.png"));
+            BIkite = ImageIO.read(this.getClass().getResource("fat.png"));
+            BIdart = ImageIO.read(this.getClass().getResource("thin.png"));
+            BIthin = ImageIO.read(this.getClass().getResource("thintwo.png"));
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
